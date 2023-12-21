@@ -20,7 +20,8 @@ The kitchen “Receiving Page” will get the order information from the databas
 * Multiple nodes support high availability
 
 ## Active Diagram
-![image](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/image/Active%20Diagram.png)
+![image](https://github.com/yvonne90190/Real-Time-Restaurant-Ordering-and-Management-System/assets/74034659/8c51eea6-3b2c-4145-ba88-34a194ff3a92)
+
 
 ## Sequence Diagram
 ![image](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/image/Sequence%20Diagram.png)
