@@ -1,28 +1,4 @@
-# Restaurant Ordering System
-
-## System description
-Using **ETCD** as the backend database, and **React** and **Flask** for the front-end and back-end respectively, implement a complete online ordering system.  
-Customers can order online on the “Ordering Page”, and the order information will be stored in ETCD. 
-The kitchen “Receiving Page” will get the order information from the database and start making the dishes, and the order status will be fed back to the “Ordering Page”.
-
-## System functions
-### Ordering Page（customer）
-* Create the order
-* Cancel the order
-* Check the status of order（making、finished）
-### Receiving Page（kitchen）
-* Accept the order
-* Complete the order
-* Update the status of each order（accepted、making、finished）
-## Database
-### ETCD
-* Store the orders（by key-value form）
-* Using Raft to solve Consistency/Partition Tolerable
-* Multiple nodes support high availability
-
-
-
-# **Online Ordering System**
+# **Real Time Restaurant Ordering and Management System**
 
 ## **Overview**
 This project is a full-fledged online ordering system that allows customers to place orders through a web interface, with real-time status updates from the kitchen. It uses **ETCD** as a distributed backend database for high availability and consistency, **React** for the frontend, and **Flask** for the backend.
