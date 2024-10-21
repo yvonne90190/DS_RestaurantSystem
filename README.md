@@ -21,11 +21,11 @@ This project is designed as a microservice-based distributed system. It includes
 
 For a detailed look at the system's internal workings, refer to the **Activity Diagram** and **Sequence Diagram** below:
 
-- **Activity Diagram**: Represents the flow of order creation, acceptance, cancellation, and completion.
+- **Activity Diagram**: Represents the flow of order creation, acceptance, cancellation, and completion.  
   ![image](https://github.com/yvonne90190/Real-Time-Restaurant-Ordering-and-Management-System/assets/74034659/d0411f0d-d440-413a-a96f-784f42d74ed2)
 
 
-- **Sequence Diagram**: Illustrates the interactions between the user, ETCD server, Raft module, and leader node during the ordering process.
+- **Sequence Diagram**: Illustrates the interactions between the user, ETCD server, Raft module, and leader node during the ordering process.  
 ![image](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/image/Sequence%20Diagram.png)
 
 - [Demo video](https://youtu.be/513C4WNDiVs)
@@ -43,57 +43,7 @@ To run this project, you'll need to have the following installed on your system:
 - **React.js**
 - **ETCD**
 - **Docker** (optional for running ETCD in a container)
-
-### **Installation**
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/YOUR_USERNAME/online-ordering-system.git
-   cd online-ordering-system
-   ```
-
-2. **Backend Setup (Flask)**:
-   - Install Python dependencies:
-     ```bash
-     pip install -r backend/requirements.txt
-     ```
-   - Run the Flask server:
-     ```bash
-     python backend/app.py
-     ```
-
-3. **Frontend Setup (React)**:
-   - Navigate to the frontend directory:
-     ```bash
-     cd frontend
-     ```
-   - Install the necessary npm packages:
-     ```bash
-     npm install
-     ```
-   - Start the React development server:
-     ```bash
-     npm start
-     ```
-
-4. **Run ETCD** (Standalone or Docker):
-   - Standalone:
-     ```bash
-     etcd
-     ```
-   - Using Docker:
-     ```bash
-     docker run -d --name etcd -p 2379:2379 -p 2380:2380 quay.io/coreos/etcd
-     ```
-
----
-
-## **Usage**
-
-Once everything is set up and running:
-- Navigate to the frontend at `http://localhost:3000` to access the **Ordering Page**.
-- Place a new order, and track its status (Pending, Making, Finished).
-- For kitchen staff, access the **Receiving Page** to manage and update order statuses.
-
+- 
 ---
 
 ## **Database (ETCD) Design**
