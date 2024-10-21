@@ -14,7 +14,8 @@ The kitchen “Receiving Page” will get the order information from the databas
 * Accept the order
 * Complete the order
 * Update the status of each order（accepted、making、finished）
-### ETCD（database）
+## Database
+### ETCD
 * Store the orders（by key-value form）
 * Using Raft to solve Consistency/Partition Tolerable
 * Multiple nodes support high availability
