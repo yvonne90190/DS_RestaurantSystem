@@ -1,7 +1,7 @@
 # **Real Time Restaurant Ordering and Management System**
 
 ## **Overview**
-This project is a full-fledged online ordering system that allows customers to place orders through a web interface, with real-time status updates from the kitchen. It uses **ETCD** as a distributed backend database for high availability and consistency, **React** for the frontend, and **Flask** for the backend.
+This project is a full-fledged online ordering system that allows customers to place orders through a web interface, with real-time status updates from the kitchen. It uses **ETCD** as a distributed backend database for high onsistency and fault tolerance, **React** for the frontend, and **Flask** for the backend.
 
 ### Key Features:
 - **Order Creation**: Customers can create orders and track their status (Pending, Making, Finished).
@@ -50,8 +50,7 @@ To run this project, you'll need to have the following installed on your system:
 
 - Orders are stored in ETCD using a **key-value** format. The key represents the order ID, and the value contains the order details (e.g., items, customer information, status).
   
-- **Raft Consensus** ensures consistency across multiple ETCD nodes. This guarantees that all nodes have the same order information, even if some nodes fail.
-
+- **Raft Consensus** ensures high consistency and fault tolerance across multiple ETCD nodes. This mechanism guarantees that all nodes maintain the same order information, even in the event of node failures, thereby providing reliable data availability.
 ---
 
 ## **Acknowledgments**
