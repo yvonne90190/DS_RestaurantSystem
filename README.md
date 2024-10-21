@@ -43,7 +43,7 @@ To run this project, you'll need to have the following installed on your system:
 - **React.js**
 - **ETCD**
 - **Docker** (optional for running ETCD in a container)
-- 
+
 ---
 
 ## **Database (ETCD) Design**
