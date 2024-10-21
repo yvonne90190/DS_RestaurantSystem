@@ -28,9 +28,8 @@ For a detailed look at the system's internal workings, refer to the **Activity D
 - **Sequence Diagram**: Illustrates the interactions between the user, ETCD server, Raft module, and leader node during the ordering process.
 ![image](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/image/Sequence%20Diagram.png)
 
-- **Other**:
-[Demo video](https://youtu.be/513C4WNDiVs)  
-[Presentation PowerPoint](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/Introduction%20of%20Restaurant%20System.pdf)
+- [Demo video](https://youtu.be/513C4WNDiVs)
+- [Presentation PowerPoint](https://github.com/HOSHICHEN7267/DS_RestaurantSystem/blob/master/Introduction%20of%20Restaurant%20System.pdf)
 
 
 ---
